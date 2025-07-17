@@ -10,8 +10,7 @@ A Streamlit web app powered by **LlamaIndex**, **Groq**, and multiple external A
 
 ## 🚀 Live Demo
 
-👉 [Try it now on Streamlit](https://multitasking-agent.streamlit.app)
-
+👉 [Try it now on Streamlit](https://multitasking-agent-4kwvmjo2fp5lpbjft4xgob.streamlit.app)
 ---
 
 ## 🛠️ Built With
