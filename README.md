@@ -39,7 +39,7 @@ This app uses a **FunctionCallingAgent** from LlamaIndex. It intelligently selec
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/multitasking-agent.git
+   git clone https://github.com/pg158/multitasking-agent.git
    cd multitasking-agent
    ```
 
