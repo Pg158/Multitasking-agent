@@ -1,0 +1,7 @@
+streamlit
+llama-index
+python-dotenv
+google-api-python-client
+serpapi
+requests
+python-dotenv
