@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 from llama_index.llms.groq import Groq
-from llama_index.core.agent.workflow import FunctionAgent
+from llama_index.core.agent import FunctionCallingAgent
 from llama_index.core.tools import FunctionTool
 
 from tools.google_search import google_search
@@ -19,7 +19,7 @@ tools = [
     FunctionTool.from_defaults(fn=get_weather, name="get_weather", description="Get current weather."),
 ]
 
-agent = FunctionAgent.from_tools(
+agent = FunctionCallingAgent.from_tools(
     tools=tools,
     llm=llm,
     system_prompt="""
