@@ -6,3 +6,4 @@ serpapi
 requests
 python-dotenv
 llama-index-llms-groq
+google-search-results
